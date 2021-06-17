@@ -40,6 +40,60 @@
   margin-right: 1rem;
 }
 
+.mtc-1 {
+  margin-top: 12.5rem;
+}
+
+.mtc-2 {
+  margin-top: 4rem;
+}
+
+.mtc-3 {
+  margin-top: 2.5rem;
+}
+
+.mtc-4 {
+  margin-top: 2.25rem;
+}
+
+.mtc-5 {
+  margin-top: 2rem;
+}
+
+.ls-1 {
+  letter-spacing: 12px;
+}
+
+.ls-2 {
+  letter-spacing: 8px;
+}
+
+.ls-3 {
+  letter-spacing: 6px;
+}
+
+.ls-4 {
+  letter-spacing: 4px;
+}
+
+.ls-5 {
+  letter-spacing: 2px;
+}
+
+.fd-none {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+
+.fd-none:hover {
+  color: #6b6b6b;
+}
+
+.fd-none > img:hover {
+  transform: scale(1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .fs-jumbotron {
   font-family: Poppins;
   font-weight: 900;
@@ -64,6 +118,14 @@
   color: #1e1e1e;
   text-align: center;
   background-color: #f3722c;
+}
+
+.fs-7 {
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 55px;
+  text-align: left;
+  color: #fff;
 }
 
 .bg-secondary2 {

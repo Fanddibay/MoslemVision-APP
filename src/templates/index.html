@@ -11,16 +11,16 @@
 
     <title>MoslemVision</title>
     <!-- link css -->
-    <link rel="stylesheet" href="../styles/main.css" />
-    <link
-      rel="stylesheet"
-      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
   </head>
   <body>
@@ -30,8 +30,8 @@
         <!-- navigation -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand text-danger fs-3 fw-bold" href="#"
-              >MOSLEMVISION</a
+            <a class="navbar-brand text-danger fs-3 fw-bold" href="#">
+              MOSLEMVISION</a
             >
             <button
               class="navbar-toggler"
@@ -56,7 +56,7 @@
                   <a class="nav-link" aria-current="page" href="#">HOME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">BEST SELLER</a>
+                  <a class="nav-link" href="#">BEST SELLER </a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -109,11 +109,14 @@
               id="signIn"
               class="justify-content-lg-end d-md-none d-none d-lg-block"
             >
-              <button class="btn btn-outline-danger m-lg-3 px-4" type="submit">
-                Sign in
+              <button
+                class="btn btn-outline-danger m-lg-3 px-4 fs-5"
+                type="submit"
+              >
+                <i class="fas fa-sign-in-alt"></i> Sign in
               </button>
-              <button class="btn btn-danger mr-1 px-4" type="submit">
-                Sign Up
+              <button class="btn btn-danger mr-1 px-4 fs-5" type="submit">
+                <i class="fas fa-home"></i> Sign Up
               </button>
             </div>
           </div>
@@ -133,9 +136,10 @@
               font-weight: bold;
               margin: 2rem 1.7rem;
               font-style: italic;
+              padding: 2em 0;
             "
           >
-            Need cloths for your <span class="bg-white p-1">styles?</span>
+            Need cloths for your <span class="bg-white p-1 m-5">styles?</span>
           </h1>
         </div>
         <div class="col-md-1"></div>
@@ -160,9 +164,163 @@
         </div>
       </div>
     </section>
+    <!-- end jumbotron -->
+    <!-- best seller choice -->
+    <section>
+      <div class="container-lg container-sm">
+        <h1 class="mtc-2 fw-bold">BEST SELLER</h1>
+        <div class="row mt-lg-5">
+          <div class="col-lg-4">
+            <a href="#" class="fd-none">
+              <img src="../assets/shop-1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-lg-4">Gamis Black</h5>
+                <p class="card-text ls-5 fw-light">$19.00</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <div class="">
+              <img src="../assets/shop-2.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-lg4">Gamis White</h5>
+                <p class="card-text ls-5 fw-light">$19.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="">
+              <img src="../assets/shop-3.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-lg-4">Black Gamis</h5>
+                <p class="card-text ls-5 fw-light">$19.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end best seller choice -->
+    <!-- our network -->
+    <section>
+      <div class="bg-danger p-5 mt-lg-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 mtc-1 me-1">
+              <br />
+              <h1
+                class="
+                  text-uppercase
+                  fw-bold
+                  justify-content-lg-center
+                  align-content-md-center
+                  mt-lg-5
+                  text-white
+                  fs-7
+                "
+              >
+                our <br />
+                network
+              </h1>
+            </div>
+            <!-- dekstop img -->
+            <div class="col-lg-2 d-lg-block d-none">
+              <img
+                src="../assets/sponsor-1.png"
+                class="mb-4"
+                alt=""
+                width="200"
+              />
+              <img src="../assets/sponsor-2.png" alt="" width="200" />
+            </div>
+            <div class="col-lg-2 d-lg-block d-none">
+              <img
+                src="../assets/sponsor-3.png"
+                class="mb-4"
+                alt=""
+                width="200"
+              />
+              <img src="../assets/sponsor-4.png" alt="" width="200" />
+            </div>
+            <div class="col-lg-2 d-lg-block d-none">
+              <img
+                src="../assets/sponsor-5.png"
+                class="mb-4"
+                alt=""
+                width="200"
+              />
+              <img src="../assets/sponsor-6.png" alt="" width="200" />
+            </div>
+            <!-- end dekstop img -->
+            <div
+              class="
+                justify-content-center
+                text-center
+                align-content-center
+                d-lg-none d-block
+                m-auto
+                pe-auto
+                mb-4
+                mr-1
+                mt-5
+              "
+            >
+              <img
+                src="../assets/sponsor-1.png"
+                class="mb-4"
+                width="200"
+                alt=""
+              />
+              <img src="../assets/sponsor-2.png" alt="" width="200" />
+            </div>
+            <div
+              class="
+                justify-content-center
+                text-center
+                align-content-center
+                d-lg-none d-block
+                m-auto
+                pe-auto
+                mb-4
+                mr-1
+              "
+            >
+              <img
+                src="../assets/sponsor-3.png"
+                class="mb-4"
+                width="200"
+                alt=""
+              />
+              <img src="../assets/sponsor-4.png" alt="" width="200" />
+            </div>
+            <div
+              class="
+                justify-content-center
+                text-center
+                align-content-center
+                d-lg-none d-block
+                m-auto
+                pe-auto
+                mb-4
+                mr-1
+              "
+            >
+              <img
+                src="../assets/sponsor-5.png"
+                class="mb-4"
+                width="200"
+                alt=""
+              />
+              <img src="../assets/sponsor-6.png" alt="" width="200" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- script -->
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/fontawesome/index.js"></script>
   </body>
 </html>
