@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
+*::before {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
+*::after {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
+/* custom */
+.mr-1 {
+  margin-right: 2rem;
+}
+
+.mr-2 {
+  margin-right: 1.85rem;
+}
+
+.mr-3 {
+  margin-right: 1.5rem;
+}
+
+.mr-4 {
+  margin-right: 1.25rem;
+}
+
+.mr-5 {
+  margin-right: 1rem;
+}
+
+.fs-jumbotron {
+  font-family: Poppins;
+  font-weight: 900;
+  font-size: 5rem;
+  color: #1e1e1e;
+  text-align: center;
+  background: #fff;
+}
+
+.fs-jumbotron-1 {
+  font-family: Poppins;
+  font-weight: 900;
+  font-size: 5rem;
+  color: #1e1e1e;
+  text-align: center;
+}
+
+.fs-jumbotron-2 {
+  font-family: Poppins;
+  font-weight: 900;
+  font-size: 5rem;
+  color: #1e1e1e;
+  text-align: center;
+  background-color: #f3722c;
+}
+
+.bg-secondary2 {
+  background: #b3b3ad;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.16);
+}
