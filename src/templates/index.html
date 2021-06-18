@@ -28,7 +28,7 @@
     <section>
       <header>
         <!-- navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary2 px-4">
           <div class="container-fluid">
             <a class="navbar-brand text-danger fs-3 fw-bold" href="#">
               MOSLEMVISION</a
@@ -53,37 +53,17 @@
                 style="--bs-scroll-height: 100px"
               >
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">HOME</a>
+                  <a class="nav-link fs-custom" aria-current="page" href="#"
+                    >HOME</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">BEST SELLER </a>
+                  <a class="nav-link fs-custom" href="#"> BEST SELLER </a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarScrollingDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    ABOUT US
-                  </a>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="navbarScrollingDropdown"
-                  >
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
+                <li class="nav-item fs-custom">
+                  <a class="nav-link" href="#"> ABOUT US </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item fs-custom">
                   <a
                     class="nav-link"
                     href="#"
@@ -113,10 +93,10 @@
                 class="btn btn-outline-danger m-lg-3 px-4 fs-5"
                 type="submit"
               >
-                <i class="fas fa-sign-in-alt"></i> Sign in
+                <i class="fas fa-sign-in-alt overflow-visible"></i> Sign in
               </button>
               <button class="btn btn-danger mr-1 px-4 fs-5" type="submit">
-                <i class="fas fa-home"></i> Sign Up
+                <i class="fas fa-home overflow-visible"></i> Sign Up
               </button>
             </div>
           </div>
@@ -144,7 +124,7 @@
         </div>
         <div class="col-md-1"></div>
         <div class="col-md-5 p-3 p-lg-5 pt-lg-3 d-none d-lg-block">
-          <h1 class="fw-bold lh-1 fs-jumbotron">Classic</h1>
+          <h1 class="fw-bold fs-jumbotron overflow-visible">Classic</h1>
           <p class="fs-jumbotron-1">With</p>
           <p class="fs-jumbotron-2">Sunnah</p>
           <p class="fs-jumbotron-1">Style</p>
@@ -158,7 +138,7 @@
             <img src="../assets/logo-playstore.png" width="420" alt="" />
           </div>
         </div>
-        <div class="col-md-1"></div>
+        <div class="col-lg-1"></div>
         <div class="col-md-4 -mt-5 d-none d-lg-block">
           <img class="" src="../assets/jumbotronHero.png" alt="" width="720" />
         </div>
@@ -172,7 +152,11 @@
         <div class="row mt-lg-5">
           <div class="col-lg-4">
             <a href="#" class="fd-none">
-              <img src="../assets/shop-1.png" class="card-img-top" alt="..." />
+              <img
+                src="../assets/shop-1.png"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
               <div class="card-body">
                 <h5 class="card-title fw-bold fs-lg-4">Gamis Black</h5>
                 <p class="card-text ls-5 fw-light">$19.00</p>
@@ -180,22 +164,30 @@
             </a>
           </div>
           <div class="col-lg-4">
-            <div class="">
-              <img src="../assets/shop-2.png" class="card-img-top" alt="..." />
+            <a href="" class="fd-none">
+              <img
+                src="../assets/shop-2.png"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
               <div class="card-body">
                 <h5 class="card-title fw-bold fs-lg4">Gamis White</h5>
                 <p class="card-text ls-5 fw-light">$19.00</p>
-              </div>
-            </div>
+              </div></a
+            >
           </div>
           <div class="col-lg-4">
-            <div class="">
-              <img src="../assets/shop-3.png" class="card-img-top" alt="..." />
+            <a href="" class="fd-none">
+              <img
+                src="../assets/shop-3.png"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
               <div class="card-body">
                 <h5 class="card-title fw-bold fs-lg-4">Black Gamis</h5>
                 <p class="card-text ls-5 fw-light">$19.00</p>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -204,7 +196,7 @@
     <!-- our network -->
     <section>
       <div class="bg-danger p-5 mt-lg-5">
-        <div class="container">
+        <div class="container-lg">
           <div class="row">
             <div class="col-lg-5 mtc-1 me-1">
               <br />
@@ -217,14 +209,28 @@
                   mt-lg-5
                   text-white
                   fs-7
+                  overflow-visible
+                  d-none d-lg-block
                 "
               >
                 our <br />
                 network
               </h1>
+              <h1
+                class="
+                  text-uppercase
+                  fw-bold
+                  justify-center
+                  d-lg-none d-block
+                  text-white
+                  fs-7m
+                "
+              >
+                Our network
+              </h1>
             </div>
             <!-- dekstop img -->
-            <div class="col-lg-2 d-lg-block d-none">
+            <div class="col-lg d-lg-block d-none">
               <img
                 src="../assets/sponsor-1.png"
                 class="mb-4"
@@ -233,7 +239,7 @@
               />
               <img src="../assets/sponsor-2.png" alt="" width="200" />
             </div>
-            <div class="col-lg-2 d-lg-block d-none">
+            <div class="col-lg d-lg-block d-none">
               <img
                 src="../assets/sponsor-3.png"
                 class="mb-4"
@@ -242,7 +248,7 @@
               />
               <img src="../assets/sponsor-4.png" alt="" width="200" />
             </div>
-            <div class="col-lg-2 d-lg-block d-none">
+            <div class="col-lg d-lg-block d-none">
               <img
                 src="../assets/sponsor-5.png"
                 class="mb-4"
@@ -252,66 +258,101 @@
               <img src="../assets/sponsor-6.png" alt="" width="200" />
             </div>
             <!-- end dekstop img -->
-            <div
-              class="
-                justify-content-center
-                text-center
-                align-content-center
-                d-lg-none d-block
-                m-auto
-                pe-auto
-                mb-4
-                mr-1
-                mt-5
-              "
-            >
-              <img
-                src="../assets/sponsor-1.png"
-                class="mb-4"
-                width="200"
-                alt=""
-              />
-              <img src="../assets/sponsor-2.png" alt="" width="200" />
+            <div class="row">
+              <div
+                class="
+                  justify-content-center
+                  text-center
+                  align-content-center
+                  d-lg-none d-block
+                  mt-5
+                  mb-4
+                "
+              >
+                <img
+                  src="../assets/sponsor-1.png"
+                  class="mb-4"
+                  width="200"
+                  alt=""
+                />
+                <img src="../assets/sponsor-2.png" alt="" width="200" />
+              </div>
+              <div
+                class="
+                  justify-content-center
+                  text-center
+                  align-content-center
+                  d-lg-none d-block
+                  mb-4
+                "
+              >
+                <img
+                  src="../assets/sponsor-3.png"
+                  class="mb-4"
+                  width="200"
+                  alt=""
+                />
+                <img src="../assets/sponsor-4.png" alt="" width="200" />
+              </div>
+              <div
+                class="
+                  justify-content-center
+                  text-center
+                  align-content-center
+                  d-lg-none d-block
+                  mb-4
+                "
+              >
+                <img
+                  src="../assets/sponsor-5.png"
+                  class="mb-4"
+                  width="200"
+                  alt=""
+                />
+                <img src="../assets/sponsor-6.png" alt="" width="200" />
+              </div>
             </div>
-            <div
-              class="
-                justify-content-center
-                text-center
-                align-content-center
-                d-lg-none d-block
-                m-auto
-                pe-auto
-                mb-4
-                mr-1
-              "
-            >
-              <img
-                src="../assets/sponsor-3.png"
-                class="mb-4"
-                width="200"
-                alt=""
-              />
-              <img src="../assets/sponsor-4.png" alt="" width="200" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end our network -->
+    <!-- reviews  -->
+    <section>
+      <div class="container mtc-1">
+        <div class="justify-content-center text-center align-center">
+          <h3 class="fw-bold fs-1">They Are Loving Us</h3>
+          <p class="fw-ligther ls-5">Reviews for our customer</p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="card col-lg-4 me-lg-5 mt-4" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title fw-bolder fs-4 text-center">Yusuf Imron</h5>
+              <p class="card-text text-justify">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
             </div>
-            <div
-              class="
-                justify-content-center
-                text-center
-                align-content-center
-                d-lg-none d-block
-                m-auto
-                pe-auto
-                mb-4
-                mr-1
-              "
-            >
-              <img
-                src="../assets/sponsor-5.png"
-                class="mb-4"
-                width="200"
-                alt=""
-              />
-              <img src="../assets/sponsor-6.png" alt="" width="200" />
+          </div>
+          <div class="card col-lg-4 me-lg-5 mt-4" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title fw-bolder fs-4 text-center">Yusuf Imron</h5>
+              <p class="card-text text-justify">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card col-lg-4 me-lg-5 mt-4" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title fw-bolder fs-4 text-center">Yusuf Imron</h5>
+              <p class="card-text text-justify">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
             </div>
           </div>
         </div>
